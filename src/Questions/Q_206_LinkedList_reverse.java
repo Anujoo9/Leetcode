@@ -15,6 +15,9 @@ public class Q_206_LinkedList_reverse {
         ListNode curr = head;
         while(curr !=null){
             ListNode temp = head.next;
+            prev = curr;
+            prev.next = temp;
+            head = temp;
         }
         return prev;
     }
