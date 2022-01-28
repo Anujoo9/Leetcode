@@ -1,6 +1,6 @@
 package Questions;
 
-public class LinkedList_rev_II {
+public class Q_92_LinkedList_rev_II {
     public static class ListNode {
         int data;
         ListNode next;
